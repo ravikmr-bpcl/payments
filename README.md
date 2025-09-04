@@ -3,40 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Quick Links</title>
+  <title>Payment Link for Bharatgas Booking</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-6">
   
   <h1 class="text-3xl font-bold mb-8 text-gray-800">My Quick Links</h1>
   
-  <div class="grid grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-2xl">
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-3xl">
     
-    <!-- Amazon -->
-    <a href="https://www.amazon.in" target="_blank" 
+    <!-- Amazon Pay -->
+    <a href="https://amzn.to/2vZXtzF" target="_blank" 
        class="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center hover:scale-105 transform transition duration-200">
-      <img src="https://cdn-icons-png.flaticon.com/512/732/732228.png" alt="Amazon" class="w-12 h-12 mb-3">
-      <span class="text-lg font-semibold text-gray-700">Amazon</span>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amazon_Pay_logo.svg" alt="Amazon Pay" class="w-16 h-16 mb-3">
+      <span class="text-lg font-semibold text-gray-700">Amazon Pay</span>
     </a>
 
     <!-- GPay -->
-    <a href="https://pay.google.com" target="_blank" 
+    <a href="https://gpay.app.goo.gl/Bharatgas" target="_blank" 
        class="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center hover:scale-105 transform transition duration-200">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Google_Pay_Logo.svg/512px-Google_Pay_Logo.svg.png" alt="GPay" class="w-12 h-12 mb-3">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Google_Pay_Logo.svg" alt="GPay" class="w-16 h-16 mb-3">
       <span class="text-lg font-semibold text-gray-700">GPay</span>
     </a>
 
-    <!-- YouTube -->
-    <a href="https://www.youtube.com" target="_blank" 
+    <!-- PhonePe -->
+    <a href="https://www.phon.pe/lpg" target="_blank" 
        class="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center hover:scale-105 transform transition duration-200">
-      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" class="w-12 h-12 mb-3">
-      <span class="text-lg font-semibold text-gray-700">YouTube</span>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/PhonePe_Logo.svg" alt="PhonePe" class="w-16 h-16 mb-3">
+      <span class="text-lg font-semibold text-gray-700">PhonePe</span>
     </a>
 
-    <!-- Add more links here -->
+    <!-- PayTM -->
+    <a href="https://m.paytm.me/Bharatgas" target="_blank" 
+       class="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center hover:scale-105 transform transition duration-200">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Paytm_logo.png" alt="PayTM" class="w-16 h-16 mb-3">
+      <span class="text-lg font-semibold text-gray-700">PayTM</span>
+    </a>
+
+    <!-- TataNeu -->
+    <a href="https://www.tataneu.com/billpayment/bill-account-mobile-pwa?id=BHAR00000NATR4&catId=CAT1032" target="_blank" 
+       class="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center hover:scale-105 transform transition duration-200">
+      <img src="https://play-lh.googleusercontent.com/YZkJ8zdlGW9dP6Uaa3aGpGx8vN6fOTCivVuv2qH6spFyp4d7S5U1IBvnKKmKx8GwbA=w240-h480-rw" alt="TataNeu" class="w-16 h-16 mb-3 rounded-lg">
+      <span class="text-lg font-semibold text-gray-700">TataNeu</span>
+    </a>
+
+    <!-- Bharatgas Web -->
+    <a href="https://tinyurl.com/lpgbook" target="_blank" 
+       class="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center hover:scale-105 transform transition duration-200">
+      <img src="https://www.bharatpetroleum.in/images/lpg.png" alt="Bharatgas" class="w-16 h-16 mb-3">
+      <span class="text-lg font-semibold text-gray-700">Bharatgas Web</span>
+    </a>
     
   </div>
 
 </body>
 </html>
-
