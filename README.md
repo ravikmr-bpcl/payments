@@ -8,7 +8,7 @@
 </head>
 <body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-6">
   
-  <h1 class="text-3xl font-bold mb-8 text-gray-800">My Quick Links</h1>
+  <h1 class="text-3xl font-bold mb-8 text-gray-800">Payment Link for Bharatgas Booking</h1>
   
   <div class="grid grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-3xl">
     
